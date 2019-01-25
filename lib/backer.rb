@@ -11,4 +11,5 @@ class Backer
     @backed_projects << project
     project.add_backer(self)
   end
+  
 end
